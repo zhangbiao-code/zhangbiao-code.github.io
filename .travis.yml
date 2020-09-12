@@ -12,7 +12,7 @@ cache:
 env:
   global:
     # Github Pages
-    - GH_REF: github.com/zhangbiao-code/zhangbiao-code.github.io
+    - GH_REF: github.com/zhangbiao-code/zhangbiao-code.github.io.git
     # Coding Pages
     - CO_REF: e.coding.net/zhangbiao-code/blog/zhangbiao-blog.git
 
@@ -49,10 +49,10 @@ after_script:
   - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
   # Coding Pages
   - git push --force --quiet "https://OWXQIBpQlE:${CO_TOKEN}@${CO_REF}" master:master
-#  - git tag v0.0.$TRAVIS_BUILD_NUMBER -a -m "Auto Taged By TravisCI With Build $TRAVIS_BUILD_NUMBER"
+  - git tag v0.0.$TRAVIS_BUILD_NUMBER -a -m "Auto Taged By TravisCI With Build $TRAVIS_BUILD_NUMBER"
   # Github Pages
-#  - git push --quiet "https://${GH_TOKEN}@${GH_REF}" master:master --tags
+  - git push --quiet "https://${GH_TOKEN}@${GH_REF}" master:master --tags
   # Coding Pages
-#  - git push --quiet "https://OWXQIBpQlE:${CO_TOKEN}@${CO_REF}" master:master --tags
+  - git push --quiet "https://OWXQIBpQlE:${CO_TOKEN}@${CO_REF}" master:master --tags
 
 # End: Build LifeCycle
