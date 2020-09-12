@@ -21,9 +21,9 @@ branches:
   only:
     - blog-source # build master branch only
 
-#before_install:
-#  - npm install hexo-server --save
-#  - npm install -g hexo-cli
+before_install:
+  - npm install hexo-server --save
+  - npm install -g hexo-cli
 
 # Start: Build Lifecycle
 install:
