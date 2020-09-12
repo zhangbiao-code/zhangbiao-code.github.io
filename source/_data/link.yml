@@ -1,0 +1,63 @@
+- class_name:
+  class_desc: 朋友圈 ———— 花径不曾缘客扫，蓬门今始为君开
+  link_list:
+    - name: Xu’s Blog # 博客名
+      link: https://hasaik.com
+      avatar: https://cdn.jsdelivr.net/gh/zhangbiao-code/blog_cdn@master/image/site/link/xuxu_icon.jpg
+      descr: 简单不先于复杂，而是在复杂之后
+    - name: Yuning’s Blog # 博客名
+      link: https://yuning.life
+      avatar: https://cdn.jsdelivr.net/gh/zhangbiao-code/blog_cdn@master/image/site/link/Yuning_avatar.jpg
+      descr: 懒人没有左右铭~
+
+- class_name:
+  class_desc: 技术大拿 ———— 没有不劳而获的工作，更没有坐享其成的收获
+  link_list:
+    - name: 小康博客
+      link: https://www.antmoe.com/
+      avatar: https://cdn.jsdelivr.net/gh/XuxuGood/cdn@master/blogImages/links/小康博客.jpg
+      descr: 一个收藏回忆与分享技术的地方
+
+- class_name:
+  class_desc: 使用工具
+  link_list:
+    - name: TinyPNG # 博客名
+      link: https://tinypng.com/
+      avatar: https://cdn.jsdelivr.net/gh/XuxuGood/cdn@master/blogImages/tools/tinypng.png
+      descr: 图片在线压缩
+    - name: Itemo # 博客名
+      link: https://webgradients.com/
+      avatar: https://cdn.jsdelivr.net/gh/zhangbiao-code/blog_cdn@master/image/site/link/itmeo_icon.jpg
+      descr: 多种多样的渐变色
+    - name: Easyicon # 博客名
+      link: https://www.easyicon.net/
+      avatar: https://cdn.jsdelivr.net/gh/zhangbiao-code/blog_cdn@master/image/site/link/easy_icon.png
+      descr: 图标下载库
+    - name: WallpaperAccess # 博客名
+      link: https://wallpaperaccess.com/
+      avatar: https://cdn.jsdelivr.net/gh/zhangbiao-code/blog_cdn@master/image/site/link/wallpaperaccess_icon.png
+      descr: 高清图片
+    - name: 彼岸图库 # 博客名
+      link: http://pic.netbian.com/
+      avatar: https://cdn.jsdelivr.net/gh/zhangbiao-code/blog_cdn@master/image/site/link/bian_icon.png
+      descr: 超清壁纸
+    - name: 搞定抠图 # 博客名
+      link: https://www.gaoding.com/koutu
+      avatar: https://cdn.jsdelivr.net/gh/zhangbiao-code/blog_cdn@master/image/site/link/gaoding_icon.png
+      descr: 免费在线抠图
+    - name: Iconfont # 博客名
+      link: https://www.iconfont.cn/
+      avatar: https://cdn.jsdelivr.net/gh/zhangbiao-code/blog_cdn@master/image/site/link/iconfont.png
+      descr: 阿里矢量图标库
+    - name: Flaticon # 博客名
+      link: https://www.flaticon.com/
+      avatar: https://cdn.jsdelivr.net/gh/zhangbiao-code/blog_cdn@master/image/site/link/flaticon.png
+      descr: 超好看的图标库
+    - name: Font Awesome # 博客名
+      link: https://fontawesome.com/
+      avatar: https://cdn.jsdelivr.net/gh/zhangbiao-code/blog_cdn@master/image/site/link/fontawesome.png
+      descr: 图标字体库
+    - name: Linux 命令搜索 # 博客名
+      link: http://www.atoolbox.net/Tool.php?Id=826
+      avatar: https://cdn.jsdelivr.net/gh/zhangbiao-code/blog_cdn@master/image/site/link/linux_icon.png
+      descr: Linux 命令行帮助查询

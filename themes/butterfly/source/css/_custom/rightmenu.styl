@@ -1,0 +1,134 @@
+div#rightmenu-wrapper
+  display: none
+  position:fixed
+  z-index: 9000
+  disable-user-select()
+ul.list-v.rightmenu
+  display: block
+  max-width: 240px
+  overflow: hidden
+  &.left
+    right: 0
+  &.top
+    bottom: 0
+  $cellH = 32px
+  $gap = 16px
+  a
+    cursor: default
+  a.vlts-menu
+    text-overflow: ellipsis
+    overflow: hidden
+    line-height: $cellH
+  li.navigation, li.music
+    display: flex
+    justify-content: space-between
+    a.icon-only
+      line-height: 0
+      margin: 0
+      padding: 0
+      border-radius: $cellH
+      overflow: hidden
+      width: $cellH
+      height: $cellH
+    a.nav
+      i
+        margin: 0
+        width: $cellH
+        line-height: $cellH
+      &:first-child
+        margin-left: 2px + $gap * 0.5
+      &:last-child
+        margin-right: 2px + $gap * 0.5
+  li.music
+    &.name
+      display: flex
+      flex-direction: column
+      align-items: center
+      p.nav.music-title
+        color: mix(#444, #fff, 80)
+        font-size: .875rem
+        max-width: 128px
+        margin: 0 4px + $gap
+        overflow: hidden
+        &:hover
+          background: none
+    a.nav.volume
+      width: 100%
+      padding: 0 $gap * 0.5
+      &:hover
+        background: transparent
+      .aplayer-volume-bar
+        margin: $gap * 0.25 0 $gap * 0.5
+        position: relative
+        height: 8px
+        width: 100%
+        background: mix(#f6f6f6, #444, 95)
+        border-radius: $cellH
+        overflow: hidden
+        cursor: pointer
+        i.left, i.right
+          color: mix(#444, #fff, 80)
+          position: absolute
+          top: 0
+          width: $cellH - 4px
+          line-height: $cellH - 4px
+          trans()
+          opacity: 0
+          transform: scale(0.5) translateY(-0.5 * $cellH - 2px)
+        i.left
+          left: 0
+        i.right
+          right: 0
+        trans()
+        &:hover
+          height: $cellH - 4px
+          i
+            opacity: 1
+            transform: scale(1) translateY(0)
+
+
+/*自定义右键菜单按钮与下拉菜单按钮样式*/
+.rightmenu {
+  z-index: 1;
+  display: none;
+  position: absolute;
+  background: var(--color-card);
+  box-shadow: 0 0 1px 0px rgba(0,0,0,0.1), 0 4px 8px 0px rgba(0,0,0,0.1);
+  margin-top: -6px;
+  border-radius: 4px;
+  padding: 8px 0;
+}
+
+.rightmenu >li>a {
+  display: block;
+  font-weight: 900;
+  padding: 0 20px 0 16px;
+}
+.rightmenu li {
+  list-style :none
+}
+.rightmenu hr{
+  margin: 8px 0;
+  border :1px solid #0d0d0d;
+}
+.rightmenu hr:before {
+  content: none;
+}
+
+ul.list-v.rightmenu, .dropmenu-wrapper .dropmenu ul.list-v {
+  background: #fff;
+  //box-shadow: $boxshadow-dropmenu;
+}
+
+ul.list-v.rightmenu li a, .dropmenu-wrapper .dropmenu ul.list-v > li > a {
+  border-left: none;
+  color: mix(#444, #fff, 80);
+  padding: 0 $gap + 2px + 2px 0 $gap;
+  margin: 0 4px;
+  border-radius: 4px;
+}
+
+ul.list-v.rightmenu li a:hover, .dropmenu-wrapper .dropmenu ul.list-v > li > a:hover {
+  color: mix(#49B1F5, #444, 70);
+  background: mix(#49B1F5, #fff, 10);
+}

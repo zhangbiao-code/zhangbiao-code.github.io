@@ -1,0 +1,10 @@
+.card-widget.card-announcement
+  .card-content
+    .item-headline
+      i.fas.fa-bullhorn.card-announcement-animation
+      span= _p('aside.card_announcement')
+    .announcement_content!= theme.aside.card_announcement.content
+
+// 自定义打字效果
+if theme.coverTypeWriter.enable
+  include ../custom/coverTypeWriter.ejs

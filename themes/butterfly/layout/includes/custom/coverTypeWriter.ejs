@@ -1,0 +1,14 @@
+<!--自定义打字机效果-->
+<script src="https://cdn.jsdelivr.net/gh/zhangbiao-code/blog_cdn@master/js/typed/typed.js"></script>
+<script>
+    // 这里先把原来站点描述内容清除了
+    // document.getElementsByClassName('author-info__description')[0].innerHTML = "";
+    new Typed('#typedFont', {
+        strings: ['求百事之荣，不如免一事之辱；邀千人之欢，不如释一人之怨'],
+        loop: true, //开启循环
+        backDelay: 2000,
+        typeSpeed: 100,
+        backSpeed: 50,
+        cursorChar: '&nbsp;<i class="fa fa-heartbeat" id="myheartbeat"></i>' // 用于在在输出字符结尾闪烁的符号
+    });
+</script>
