@@ -12,7 +12,7 @@ cache:
 env:
   global:
     # Github Pages
-    - GH_REF: github.com/zhangbiao-code/zhangbiao-code.github.io.git
+    - GH_REF: github.com/zhangbiao-code/zhangbiao-code.github.io
     # Coding Pages
     - CO_REF: e.coding.net/zhangbiao-code/blog/zhangbiao-blog.git
 
@@ -40,7 +40,7 @@ script:
 after_script:
   - cd ./public
   - git init
-  - git config user.name "zhangbiao-code"
+  - git config user.name "2213733404@qq.com"
   - git config user.email "2213733404@qq.com"
   - git add .
   - git commit -m "TravisCI 自动部署"
