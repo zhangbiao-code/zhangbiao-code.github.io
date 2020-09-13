@@ -5,6 +5,8 @@ tags: [Mybatis]
 Categories: [Mybatis]
 created: 2020-05-25
 abbrlink: '202006030942'
+cover: https://cdn.jsdelivr.net/gh/zhangbiao-code/blog_cdn@master/image/essay/202006030942/cover_1.png
+top_img: https://cdn.jsdelivr.net/gh/zhangbiao-code/blog_cdn@master/image/essay/202006030942/cover_2.png
 description: Mybatis的相关知识学习总结以及对整体的体系架构和工作流程的梳理，通过学习总结该部分内容深入理解该框架。
 ---
 # Mybatis的介绍
@@ -271,3 +273,6 @@ public class ExampleTypeHandler extends BaseTypeHandler<String> {
 
 4. 代理对象执行SQL的过程
 [![img](https://cdn.jsdelivr.net/gh/zhangbiao-code/blog_cdn@master/image/essay/202006030942/2020060309428.png)](https://cdn.jsdelivr.net/gh/zhangbiao-code/blog_cdn@master/image/essay/202006030942/2020060309428.png)
+
+以上大多是以流程图以及时序图展示的过程，如果想具体了解可以查看下方代码，该代码通过上方的过程摘取出Mybatis重要的构建过程，分为V1,V2两个版本,V1为简易版，V2为详细版
+{% ghcard zhangbiao-code/mebatis, theme=solarized-light %}
