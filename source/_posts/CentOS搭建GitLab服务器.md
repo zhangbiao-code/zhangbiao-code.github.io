@@ -2,7 +2,7 @@
 title: CentOS7中搭建Gitlab
 tags: [Gitlab, 安装手册]
 categories: [Gitlab]
-created: 2020-05-25
+date: 2020-05-25
 abbrlink: '202005250941'
 cover: https://cdn.jsdelivr.net/gh/zhangbiao-code/blog_cdn@master/image/essay/202005250941/cover.png
 top_img: https://cdn.jsdelivr.net/gh/zhangbiao-code/blog_cdn@master/image/essay/202005250941/top_img.png
@@ -144,3 +144,9 @@ gitlab-ctl restart
 1. 在浏览器中访问GitLab出现502错误：
    原因：内存不足。
    解决办法：检查系统的虚拟内存是否随机启动了，如果系统无虚拟内存，则增加虚拟内存，再重新启动系统。
+
+<script>
+$(function() {
+  $(".post-copyright__notice .post-copyright-info").html("本文内容源自朋友&nbsp;<a href=\"https://hasaik.com/posts/a460b91e.html\" target=\"_blank\">Xu's Blog</a>，转载请注明来自&nbsp;<a href=\"https://hasaik.com/\" target=\"_blank\">Xu's Blog</a>")
+})
+</script>

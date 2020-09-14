@@ -3,7 +3,6 @@ title: Mybatis学习总结
 date: 2020-09-04 15:45:40
 tags: [Mybatis]
 Categories: [Mybatis]
-created: 2020-05-25
 abbrlink: '202006030942'
 cover: https://cdn.jsdelivr.net/gh/zhangbiao-code/blog_cdn@master/image/essay/202006030942/cover_1.png
 top_img: https://cdn.jsdelivr.net/gh/zhangbiao-code/blog_cdn@master/image/essay/202006030942/cover_2.png

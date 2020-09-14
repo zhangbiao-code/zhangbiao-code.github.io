@@ -61,3 +61,11 @@
       link: http://www.atoolbox.net/Tool.php?Id=826
       avatar: https://cdn.jsdelivr.net/gh/zhangbiao-code/blog_cdn@master/image/site/link/linux_icon.png
       descr: Linux 命令行帮助查询
+    - name: processon # 博客名
+      link: https://www.processon.com/
+      avatar: https://cdn.jsdelivr.net/gh/zhangbiao-code/blog_cdn@master/image/site/link/process_icon.png
+      descr: 流程图、时序图
+    - name: Canva # 博客名
+      link: https://www.canva.cn/
+      avatar: https://cdn.jsdelivr.net/gh/zhangbiao-code/blog_cdn@master/image/site/link/canva_icon.png
+      descr: 精品原创模板
