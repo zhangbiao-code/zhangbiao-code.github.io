@@ -55,8 +55,8 @@ after_script:
   # Coding Pages
   - git push --quiet "https://OWXQIBpQlE:${CO_TOKEN}@${CO_REF}" master:master --tags
   # Gitee Pages
-  - git push --force --quiet "https://${GITEE_TOKEN}@${GITEE_REF}" master:master
+  - git push --force --quiet "https://zhang-biao:${GITEE_TOKEN}@${GITEE_REF}" master:master
   # Gitee Pages
-  - git push --quiet "https://${GITEE_TOKEN}@${GITEE_REF}" master:master --tags
+  - git push --quiet "https://zhang-biao:${GITEE_TOKEN}@${GITEE_REF}" master:master --tags
 
 # End: Build LifeCycle
