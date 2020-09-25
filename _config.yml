@@ -20,7 +20,7 @@ timezone: UTC
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://zhangbiao.life
+url: https://zhangbiao.life
 # 网站根目录链接
 root: /
 # 文章链接，默认是按照 /年/月/日/文章标题 设置的链接
